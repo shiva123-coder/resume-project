@@ -86,12 +86,12 @@ header{
 }
 
 .logo{
-    background:url("../images/rosie.jpg");
+    background:url("../images/Shiva.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
-    transition: all .5s ease-in;
+    min-height: 300px;
+    transition: all .5 ease-in;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
@@ -271,6 +271,18 @@ font-weight: 700;
 }
 
 /*---------------------------------Skills*/
+
+.note{
+    font-family: "Exo" , sans-serif;
+    font-size: 15px;
+    color: #ff07fe;
+    font-weight: 400;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    background-color: #e1e1e1;
+
+}
+
 .progress{
     position: relative;
    height: 25px;
@@ -371,3 +383,4 @@ button[type="submit"]{
         max-width: 50%; 
     }
 }
+
