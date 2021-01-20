@@ -34,6 +34,15 @@
     background-color: #3498db;
 }
 
+.ui-menu-color-github{
+    background-color: #c75e3b;
+}
+
+.ui-menu-color-interests{
+    background-color: rgb(14, 14, 44);
+}
+
+
 .ui-menu-color-download{
     background-color: #525252;
 }
@@ -86,7 +95,7 @@ header{
 }
 
 .logo{
-    background:url("../images/Shiva.jpg");
+    background:url("../images/rosie.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -372,6 +381,9 @@ button[type="submit"]{
     color: #fafafa;
     background-color: #e84610;
 }
+
+/*-------------------- Map ------*/
+div#map {min-height: 360px;}
 
 /*----------------------------------Media Queries*/
 
